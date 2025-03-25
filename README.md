@@ -1,4 +1,4 @@
-# Hello, I'm UpperMoon0 👋
+# Hello, I'm Nhat 👋
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Software+Developer;Always+learning+new+things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22">
@@ -10,8 +10,9 @@
 - 💬 Ask me about programming, software architecture, or tech in general
 
 ## 🛠️ Tech Stack
+
+### Programming Languages
 <p align="center">
-  <!-- Programming Languages -->
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -19,8 +20,10 @@
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  
-  <!-- Frameworks & Libraries -->
+</p>
+
+### Frameworks & Libraries
+<p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
@@ -31,12 +34,12 @@
   <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
   <img src="https://img.shields.io/badge/Phaser-3973BB?style=for-the-badge&logo=phaser&logoColor=white" alt="Phaser" />
   <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" />
-  
-  <!-- Databases -->
+</p>
+
+### Databases & Tools
+<p align="center">
   <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  
-  <!-- Tools & Others -->
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
@@ -53,9 +56,9 @@
 </p>
 
 ## 🔥 Recent Projects
-- [Project 1](https://github.com/UpperMoon0/LilyTheThird) - A multifunctional AI agent with chat capabilities, Discord bot integration, and VTube Studio integration.
-- [Project 2](https://github.com/UpperMoon0/Biotech) - A Minecraft mod focused on biotechnology.
-- [Project 3](https://github.com/UpperMoon0/Pseudo-Developer) - An AI agent that automates coding and testing tasks.
+- [Lily The Third](https://github.com/UpperMoon0/LilyTheThird) - A multifunctional AI agent with chat capabilities, Discord bot integration, and VTube Studio integration.
+- [Biotech](https://github.com/UpperMoon0/Biotech) - A Minecraft mod focused on biotechnology.
+- [Pseudo Developer](https://github.com/UpperMoon0/Pseudo-Developer) - An AI agent that automates coding and testing tasks.
 
 ## 📫 Connect With Me
 <p align="center">
