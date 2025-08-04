@@ -6,8 +6,8 @@
 
 ## About Me
 - 🌱 I'm currently learning advanced software development concepts
-- 👯 I'm looking to collaborate on open source projects
 - 💬 Ask me about programming, software architecture, or tech in general
+- I love useful tools
 
 ## 🛠️ Tech Stack
 
