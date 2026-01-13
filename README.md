@@ -44,14 +44,6 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=UpperMoon0&show_icons=true&theme=radical&hide_rank=true" alt="GitHub Stats" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UpperMoon0&layout=compact&theme=radical" alt="Top Languages" />
-</p>
-
 ## 🔥 Recent Projects
 - [Lily The Third](https://github.com/UpperMoon0/LilyTheThird) - A multifunctional AI agent with chat capabilities, Discord bot integration, and VTube Studio integration.
 - [Biotech](https://github.com/UpperMoon0/Biotech) - A Minecraft mod focused on biotechnology.
