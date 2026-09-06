@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
   <title id="title">Technical systems map</title>
   <desc id="desc">Animated topology map of Sunday Vo's technical domains and representative technologies.</desc>
   <defs>
@@ -13,78 +13,84 @@
     </filter>
     <style>
       .bg{fill:#0d1117}.panel{fill:#111822;stroke:#30363d}.fg{fill:#f0f6fc}.muted{fill:#8b949e}
-      .title{font:700 14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.6px}
-      .text{font:500 13px Inter,Segoe UI,Arial,sans-serif}
-      .micro{font:600 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.4px}
-      .edge{fill:none;stroke:url(#edge);stroke-opacity:.42;stroke-width:1.4;stroke-dasharray:7 12;animation:flow 9s linear infinite}
+      .title{font:700 16px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.45px}
+      .text{font:500 17px Inter,Segoe UI,Arial,sans-serif}
+      .micro{font:600 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.25px}
+      .edge{fill:none;stroke:url(#edge);stroke-opacity:.42;stroke-width:1.6;stroke-dasharray:7 12;animation:flow 9s linear infinite}
       .edge.b{animation-duration:13s;animation-direction:reverse}
       .hub{fill:#111822;stroke:url(#edge);stroke-width:2}
-      .pulse{fill:#6ea8fe;filter:url(#glow);transform-origin:600px 260px;animation:pulse 3s ease-in-out infinite}
+      .pulse{fill:#6ea8fe;filter:url(#glow);transform-origin:600px 280px;animation:pulse 3s ease-in-out infinite}
       .tick{fill:#58d6c7;animation:blink 2.4s ease-in-out infinite}.tick.b{animation-delay:.8s}.tick.c{animation-delay:1.6s}
       @keyframes flow{to{stroke-dashoffset:-190}}
       @keyframes pulse{0%,100%{opacity:.25;transform:scale(.82)}50%{opacity:1;transform:scale(1.22)}}
       @keyframes blink{0%,100%{opacity:.2}50%{opacity:1}}
-      @media (prefers-color-scheme: light){.bg{fill:#ffffff}.panel{fill:#f8fafc;stroke:#d0d7de}.fg{fill:#111827}.muted{fill:#5f6b7a}.hub{fill:#ffffff}}
+      @media (prefers-color-scheme: light){.bg{fill:#ffffff}.panel{fill:#f8fafc;stroke:#d0d7de}.fg{fill:#111827}.muted{fill:#4f5b6b}.hub{fill:#ffffff}}
       @media (prefers-reduced-motion: reduce){.edge,.pulse,.tick{animation:none}}
     </style>
   </defs>
 
-  <rect class="bg" width="1200" height="520" rx="18"/>
+  <rect class="bg" width="1200" height="560" rx="18"/>
 
-  <path class="edge" d="M600 260C470 260 430 95 300 95"/>
-  <path class="edge b" d="M600 260C730 260 770 95 900 95"/>
-  <path class="edge b" d="M600 260C450 260 415 260 270 260"/>
-  <path class="edge" d="M600 260C750 260 785 260 930 260"/>
-  <path class="edge" d="M600 260C470 260 430 425 300 425"/>
-  <path class="edge b" d="M600 260C730 260 770 425 900 425"/>
+  <path class="edge" d="M600 280C470 280 430 101 300 101"/>
+  <path class="edge b" d="M600 280C730 280 770 101 900 101"/>
+  <path class="edge b" d="M600 280C450 280 415 280 270 280"/>
+  <path class="edge" d="M600 280C750 280 785 280 930 280"/>
+  <path class="edge" d="M600 280C470 280 430 459 300 459"/>
+  <path class="edge b" d="M600 280C730 280 770 459 900 459"/>
 
-  <g transform="translate(80 40)">
-    <rect class="panel" width="360" height="110" rx="14"/>
-    <circle cx="24" cy="26" r="4" class="tick"/><text x="40" y="31" class="title fg">LANGUAGES</text>
-    <text x="24" y="61" class="text muted">Java · Python · TypeScript · JavaScript</text>
-    <text x="24" y="84" class="text muted">Go · C# · Rust · C++ · HTML/CSS</text>
+  <g transform="translate(45 35)">
+    <rect class="panel" width="410" height="132" rx="14"/>
+    <circle cx="25" cy="27" r="4" class="tick"/><text x="42" y="33" class="title fg">LANGUAGES</text>
+    <text x="25" y="68" class="text muted">Java · Python · TypeScript</text>
+    <text x="25" y="94" class="text muted">JavaScript · Go · C# · Rust</text>
+    <text x="25" y="120" class="text muted">C++ · HTML/CSS</text>
   </g>
 
-  <g transform="translate(760 40)">
-    <rect class="panel" width="360" height="110" rx="14"/>
-    <circle cx="24" cy="26" r="4" class="tick b"/><text x="40" y="31" class="title fg">BACKEND / PROTOCOLS</text>
-    <text x="24" y="61" class="text muted">Spring Boot · Node.js · Fastify · REST · gRPC</text>
-    <text x="24" y="84" class="text muted">WebSocket · SSE · MCP · JSON-RPC · OAuth/PKCE</text>
+  <g transform="translate(745 35)">
+    <rect class="panel" width="410" height="132" rx="14"/>
+    <circle cx="25" cy="27" r="4" class="tick b"/><text x="42" y="33" class="title fg">BACKEND / PROTOCOLS</text>
+    <text x="25" y="68" class="text muted">Spring Boot · Node.js · Fastify</text>
+    <text x="25" y="94" class="text muted">REST · gRPC · WebSocket · SSE</text>
+    <text x="25" y="120" class="text muted">MCP · JSON-RPC · OAuth / PKCE</text>
   </g>
 
-  <g transform="translate(50 205)">
-    <rect class="panel" width="390" height="110" rx="14"/>
-    <circle cx="24" cy="26" r="4" class="tick c"/><text x="40" y="31" class="title fg">CLIENT / INTERFACE</text>
-    <text x="24" y="61" class="text muted">React · Angular · Vite · Tailwind · shadcn/ui</text>
-    <text x="24" y="84" class="text muted">React Native · Expo · Tauri · Three.js</text>
+  <g transform="translate(45 214)">
+    <rect class="panel" width="410" height="132" rx="14"/>
+    <circle cx="25" cy="27" r="4" class="tick c"/><text x="42" y="33" class="title fg">CLIENT / INTERFACE</text>
+    <text x="25" y="68" class="text muted">React · Angular · Vite · Tailwind</text>
+    <text x="25" y="94" class="text muted">shadcn/ui · React Native · Expo</text>
+    <text x="25" y="120" class="text muted">Tauri · Three.js</text>
   </g>
 
-  <g transform="translate(760 205)">
-    <rect class="panel" width="390" height="110" rx="14"/>
-    <circle cx="24" cy="26" r="4" class="tick"/><text x="40" y="31" class="title fg">DATA / STATE</text>
-    <text x="24" y="61" class="text muted">PostgreSQL · SQL Server · MongoDB · Redis</text>
-    <text x="24" y="84" class="text muted">SQLite · Drizzle ORM · vector databases</text>
+  <g transform="translate(745 214)">
+    <rect class="panel" width="410" height="132" rx="14"/>
+    <circle cx="25" cy="27" r="4" class="tick"/><text x="42" y="33" class="title fg">DATA / STATE</text>
+    <text x="25" y="68" class="text muted">PostgreSQL · SQL Server · MongoDB</text>
+    <text x="25" y="94" class="text muted">Redis · SQLite · Drizzle ORM</text>
+    <text x="25" y="120" class="text muted">vector databases</text>
   </g>
 
-  <g transform="translate(80 370)">
-    <rect class="panel" width="360" height="110" rx="14"/>
-    <circle cx="24" cy="26" r="4" class="tick b"/><text x="40" y="31" class="title fg">AI / AUTOMATION</text>
-    <text x="24" y="61" class="text muted">LLM integrations · agents · RAG · tool calling</text>
-    <text x="24" y="84" class="text muted">streaming · Gemini · TensorFlow · Playwright</text>
+  <g transform="translate(45 393)">
+    <rect class="panel" width="410" height="132" rx="14"/>
+    <circle cx="25" cy="27" r="4" class="tick b"/><text x="42" y="33" class="title fg">AI / AUTOMATION</text>
+    <text x="25" y="68" class="text muted">LLM integrations · agents · RAG</text>
+    <text x="25" y="94" class="text muted">tool calling · streaming · Gemini</text>
+    <text x="25" y="120" class="text muted">TensorFlow · Playwright</text>
   </g>
 
-  <g transform="translate(760 370)">
-    <rect class="panel" width="360" height="110" rx="14"/>
-    <circle cx="24" cy="26" r="4" class="tick c"/><text x="40" y="31" class="title fg">INFRA / GAME SYSTEMS</text>
-    <text x="24" y="61" class="text muted">Docker · Linux · Azure · Terraform · GitHub Actions</text>
-    <text x="24" y="84" class="text muted">Consul · Fabric · Forge · NeoForge · Unity · Gradle</text>
+  <g transform="translate(745 393)">
+    <rect class="panel" width="410" height="132" rx="14"/>
+    <circle cx="25" cy="27" r="4" class="tick c"/><text x="42" y="33" class="title fg">INFRA / GAME SYSTEMS</text>
+    <text x="25" y="68" class="text muted">Docker · Linux · Azure · Terraform</text>
+    <text x="25" y="94" class="text muted">GitHub Actions · Jenkins · Consul</text>
+    <text x="25" y="120" class="text muted">Fabric · Forge · NeoForge · Unity</text>
   </g>
 
   <g>
-    <circle cx="600" cy="260" r="82" class="hub"/>
-    <circle cx="600" cy="260" r="7" class="pulse"/>
-    <text x="600" y="246" text-anchor="middle" class="title fg">SYSTEMS</text>
-    <text x="600" y="272" text-anchor="middle" class="micro muted">BUILD · OPERATE · EXTEND</text>
-    <text x="600" y="294" text-anchor="middle" class="micro" fill="#6ea8fe">MULTI-DOMAIN</text>
+    <circle cx="600" cy="280" r="86" class="hub"/>
+    <circle cx="600" cy="280" r="7" class="pulse"/>
+    <text x="600" y="264" text-anchor="middle" class="title fg">SYSTEMS</text>
+    <text x="600" y="293" text-anchor="middle" class="micro muted">BUILD · OPERATE · EXTEND</text>
+    <text x="600" y="318" text-anchor="middle" class="micro" fill="#6ea8fe">MULTI-DOMAIN</text>
   </g>
 </svg>
