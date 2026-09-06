@@ -10,7 +10,7 @@ I tend to work on software that has to survive contact with reality: distributed
 
 | Project | Engineering surface |
 | :--- | :--- |
-| **[Discord Adapter](https://github.com/UpperMoon0/Discord-Adapter)** | Discord-to-Lily bridge and guild-scoped MCP administration surface with OAuth 2.0 + PKCE, Redis-backed runtime policy, media inspection, semantic tool exposure, access control, and agent-facing operational tooling. |
+| **[Discord Adapter](https://github.com/UpperMoon0/Discord-Adapter)** | Discord automation and administration gateway for AI agents and MCP clients, with OAuth 2.0 + PKCE, Redis-backed runtime policy, media inspection, semantic tool exposure, access control, and operational tooling. |
 | **[Browser LLM Gateway](https://github.com/UpperMoon0/Browser-LLM-Gateway)** | OpenAI-compatible gateway backed by a persistent browser runtime. Adapts Chat Completions, Responses, SSE streaming, structured output, tool calls, image input, authentication rotation, and OpenAI-shaped failure semantics over serialized Playwright automation. |
 | **[World Engine](https://github.com/UpperMoon0/World-Engine)** | World-scale physics and simulation optimization for large moving structures. Adaptive spatial indexing, Java/native batching, persistent native registries, local Rapier regions, bounded parallel stepping, incremental voxel geometry, terrain streaming, and network LOD. |
 | **[TTS Provider](https://github.com/UpperMoon0/TTS-Provider)** | Multi-backend WebSocket speech service with lazy model loading, GPU-capable Zonos voice cloning, Edge TTS, persistent model caching, Docker deployment, language normalization, and a unified speaker/model protocol. |
